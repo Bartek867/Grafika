@@ -46,7 +46,7 @@ if contours:
     config = r'--oem 3 --psm 8 -c tessedit_char_whitelist=0123456789'
     text = pytesseract.image_to_string(thresh, config=config)
 
-    print("📷 Odczytany tekst:", text.strip())
+    print("Odczytany tekst:", text.strip())
 
     # Podgląd
     cv2.imshow("ROI - Znak", roi)
