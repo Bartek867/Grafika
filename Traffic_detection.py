@@ -11,7 +11,7 @@ image_path = r'D:\WSB\Grafika_3sem\obraz.jpg'
 image = cv2.imread(image_path)
 
 if image is None:
-    print("❌ Nie udało się wczytać obrazu.")
+    print("Nie udało się wczytać obrazu.")
     exit()
 
 original = image.copy()
